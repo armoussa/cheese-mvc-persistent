@@ -15,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import javax.validation.Valid;
 
 @Controller
-@RequestMapping("cheese/category")
+@RequestMapping("category")
 public class CategoryController {
     @Autowired
     private CategoryDao categoryDao;
